@@ -1,0 +1,101 @@
+header {
+    margin-top: 32px;
+    margin-bottom: 32px;
+    margin-left: 16px;
+    margin-right: 16px;
+    justify-content: space-between;
+    display: flex;
+}
+
+section {
+    margin-left: 17px;
+    margin-right: 17px;
+}
+
+body {
+    background-color: #0E1014;
+    color: #FFFFFF;
+}
+
+h1 {
+    color: #FFFFFF;
+    font-family: 'Unbounded', sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 10px;
+
+
+}
+
+span {
+    color: #9747FF;
+}
+
+p {
+    color: #FFFFFF;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    text-align: center;
+    margin: 24px auto;
+}
+
+a {
+    color: #FFFFFF;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 40px;
+    background-color: #9747FF;
+    width: 251px;
+    height: 66px;
+    border-radius: 36px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 66px;
+}
+
+a:hover {
+    background-color: #8233E8;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.celulares {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+    margin-bottom: 34px;
+}
+
+/* */
+
+@media(min-width: 768px) {
+    header {
+        margin-top: 65px;
+        margin-bottom: 72px;
+        margin-left: 60px;
+        margin-right: 60px;
+    }
+
+    section {
+        margin-left: 32px;
+        margin-right: 32px;
+    }
+
+    h1 {
+        font-size: 48px;
+    }
+
+    p {
+        font-size: 24px;
+    }
+}
